@@ -4,7 +4,7 @@
   
   
   <entry>
-    <title>Singleton Pattern</title>
+    <title>单例模式</title>
     <link href="/2020/12/06/singleton-pattern/"/>
     <url>/2020/12/06/singleton-pattern/</url>
     
@@ -25,7 +25,7 @@
   
   
   <entry>
-    <title>Eval In Golang</title>
+    <title>Golang类似eval执行实现</title>
     <link href="/2020/04/11/golang-eval/"/>
     <url>/2020/04/11/golang-eval/</url>
     
@@ -44,7 +44,7 @@
   
   
   <entry>
-    <title>LeetCode Golang 整数反转</title>
+    <title>LeetCode-整数反转</title>
     <link href="/2020/04/04/leetCode-golang-reverseInteger/"/>
     <url>/2020/04/04/leetCode-golang-reverseInteger/</url>
     
@@ -65,7 +65,7 @@
   
   
   <entry>
-    <title>ZSH theme</title>
+    <title>ZSH主题</title>
     <link href="/2019/06/08/zsh-theme/"/>
     <url>/2019/06/08/zsh-theme/</url>
     
@@ -75,7 +75,7 @@
     
     <tags>
       
-      <tag>Zsh</tag>
+      <tag>zsh</tag>
       
     </tags>
     
@@ -103,7 +103,7 @@
   
   
   <entry>
-    <title>Hello</title>
+    <title>init blog</title>
     <link href="/2019/03/04/hello/"/>
     <url>/2019/03/04/hello/</url>
     
