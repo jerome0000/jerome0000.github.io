@@ -34,6 +34,8 @@
   
 
   
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
 
 
 
@@ -153,6 +155,43 @@
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2019-06-08 13:12" pubdate>
+        2019年6月8日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      61 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      1
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
           
@@ -163,25 +202,84 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<div class="page-content">
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">local</span> resetColor=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$reset_color</span>%&#125;&quot;</span><br><span class="hljs-built_in">local</span> cloud=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[blue]%&#125;☁ <span class="hljs-variable">$resetColor</span>&quot;</span><br><span class="hljs-built_in">local</span> dir=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[green]%&#125;%c$resetColor<span class="hljs-variable">$resetColor</span>&quot;</span><br><br>PROMPT=<span class="hljs-string">&#x27;$cloud $dir $(git_prompt_info)&#x27;</span><br><br>ZSH_THEME_GIT_PROMPT_PREFIX=<span class="hljs-string">&quot;↳%&#123;<span class="hljs-variable">$fg_bold</span>[blue]%&#125;&quot;</span><br>ZSH_THEME_GIT_PROMPT_SUFFIX=<span class="hljs-string">&quot;<span class="hljs-variable">$resetColor</span> &quot;</span><br>ZSH_THEME_GIT_PROMPT_DIRTY=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[red]%&#125; ✘ &quot;</span><br>ZSH_THEME_GIT_PROMPT_CLEAN=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[green]%&#125; ✔︎ &quot;</span><br><br>RPROMPT=<span class="hljs-string">&#x27;[%*]&#x27;</span><br></code></pre></td></tr></table></figure>
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">ZSH主题</h1>
+            
+            <div class="markdown-body">
+              <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">local</span> resetColor=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$reset_color</span>%&#125;&quot;</span><br><span class="hljs-built_in">local</span> cloud=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[blue]%&#125;☁ <span class="hljs-variable">$resetColor</span>&quot;</span><br><span class="hljs-built_in">local</span> dir=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[green]%&#125;%c$resetColor<span class="hljs-variable">$resetColor</span>&quot;</span><br><br>PROMPT=<span class="hljs-string">&#x27;$cloud $dir $(git_prompt_info)&#x27;</span><br><br>ZSH_THEME_GIT_PROMPT_PREFIX=<span class="hljs-string">&quot;↳%&#123;<span class="hljs-variable">$fg_bold</span>[blue]%&#125;&quot;</span><br>ZSH_THEME_GIT_PROMPT_SUFFIX=<span class="hljs-string">&quot;<span class="hljs-variable">$resetColor</span> &quot;</span><br>ZSH_THEME_GIT_PROMPT_DIRTY=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[red]%&#125; ✘ &quot;</span><br>ZSH_THEME_GIT_PROMPT_CLEAN=<span class="hljs-string">&quot;%&#123;<span class="hljs-variable">$fg_bold</span>[green]%&#125; ✔︎ &quot;</span><br><br>RPROMPT=<span class="hljs-string">&#x27;[%*]&#x27;</span><br></code></pre></td></tr></table></figure>
 
-</div>
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/zsh/">zsh</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/04/04/leetCode-golang-reverseInteger/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">LeetCode-整数反转</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2019/06/01/emoji/">
+                        <span class="hidden-mobile">Emoji分享</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -264,7 +362,11 @@
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
 
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
 
 
 
