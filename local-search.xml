@@ -129,23 +129,23 @@
   
   
   <entry>
-    <title>emoji分享</title>
-    <link href="/2019/06/01/emoji/"/>
-    <url>/2019/06/01/emoji/</url>
+    <title>hello world</title>
+    <link href="/2019/06/01/hello/"/>
+    <url>/2019/06/01/hello/</url>
     
-    <content type="html"><![CDATA[<p><code>https://zhaoolee.github.io/ChineseBQB/</code></p><p>以后还担心斗图会输嘛？不可能的！！</p>]]></content>
+    <content type="html"><![CDATA[<p><code>init blog, hello world!</code></p>]]></content>
     
     
     <categories>
       
-      <category>emoji</category>
+      <category>hello</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>emoji</tag>
+      <tag>hello</tag>
       
     </tags>
     
