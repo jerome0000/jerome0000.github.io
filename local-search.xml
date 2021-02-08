@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>leetcode-翻转字符串</title>
+    <link href="/2021/02/08/leetcode-reverString/"/>
+    <url>/2021/02/08/leetcode-reverString/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>请实现一个算法，在不使用【额外数据结构和储存空间】的情况下，翻转一个给定的字符串(可以使用单个过程变量)。给定一个string，请返回一个string，为翻转后的字符串。保证字符串的长度小于等于5000。</p></blockquote><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs golang"><br><span class="hljs-keyword">package</span> main<br><br><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;fmt&quot;</span><br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span> &#123;<br>fmt.Println(reverString(<span class="hljs-string">&quot;123abc&quot;</span>))<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">reverString</span><span class="hljs-params">(str <span class="hljs-keyword">string</span>)</span> <span class="hljs-params">(<span class="hljs-keyword">string</span>, <span class="hljs-keyword">bool</span>)</span></span> &#123;<br><br>s := []<span class="hljs-keyword">rune</span>(str)<br>l := <span class="hljs-built_in">len</span>(str)<br><br><span class="hljs-keyword">if</span> l &gt; <span class="hljs-number">5000</span> &#123;<br><span class="hljs-keyword">return</span> str, <span class="hljs-literal">false</span><br>&#125;<br><br><span class="hljs-keyword">for</span> i := <span class="hljs-number">0</span>; i &lt; l/<span class="hljs-number">2</span>; i++ &#123;<br>s[i], s[l<span class="hljs-number">-1</span>-i] = s[l<span class="hljs-number">-1</span>-i], s[i]<br>&#125;<br><span class="hljs-keyword">return</span> <span class="hljs-keyword">string</span>(s), <span class="hljs-literal">true</span><br>&#125;<br><br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>leetcode</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>leetcode</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>leetcode-判断字符串中字符是否全都不同</title>
     <link href="/2021/02/08/leetcode-isUniqueString/"/>
     <url>/2021/02/08/leetcode-isUniqueString/</url>
