@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>leetcode-判断字符串中字符是否全都不同</title>
+    <link href="/2021/02/08/leetcode-isUniqueString/"/>
+    <url>/2021/02/08/leetcode-isUniqueString/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>请实现一个算法，确定一个字符串的所有字符【是否全都不同】。这里我们要求【不允许使用额外的存储结构】。 给定一个string，请返回一个bool值,true代表所有字符全都不同，false代表存在相同的字符。 保证字符串中的字符为【ASCII字符】。字符串的长度小于等于【3000】。</p></blockquote><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><code class="hljs golang"><br><span class="hljs-keyword">package</span> main<br><br><span class="hljs-keyword">import</span> (<br><span class="hljs-string">&quot;fmt&quot;</span><br><span class="hljs-string">&quot;strings&quot;</span><br>)<br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span> &#123;<br><br>fmt.Println(isUniqueString(<span class="hljs-string">&quot;aaaaaa&quot;</span>))<br>fmt.Println(isUniqueString(<span class="hljs-string">&quot;abcdef&quot;</span>))<br><br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">isUniqueString</span><span class="hljs-params">(str <span class="hljs-keyword">string</span>)</span> <span class="hljs-title">bool</span></span> &#123;<br><br><span class="hljs-keyword">if</span> strings.Count(str, <span class="hljs-string">&quot;&quot;</span>) &gt; <span class="hljs-number">3000</span> &#123;<br><span class="hljs-keyword">return</span> <span class="hljs-literal">false</span><br>&#125;<br><br><span class="hljs-keyword">for</span> _, v := <span class="hljs-keyword">range</span> str &#123;<br><span class="hljs-keyword">if</span> v &gt; <span class="hljs-number">127</span> &#123;<br><span class="hljs-keyword">return</span> <span class="hljs-literal">false</span><br>&#125;<br><span class="hljs-keyword">if</span> strings.Count(str, <span class="hljs-keyword">string</span>(v)) &gt; <span class="hljs-number">1</span> &#123;<br><span class="hljs-keyword">return</span> <span class="hljs-literal">false</span><br>&#125;<br>&#125;<br><br><span class="hljs-keyword">return</span> <span class="hljs-literal">true</span><br>&#125;<br><br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>leetcode</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>leetcode</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>leetcode交替打印数字和字母</title>
     <link href="/2021/02/08/leetcode-printNumberAndLetter/"/>
     <url>/2021/02/08/leetcode-printNumberAndLetter/</url>
