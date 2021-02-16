@@ -2,9 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jerome0000.github.io/2021/02/16/golang-gc/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2019/06/08/shell-zshTheme/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2020/12/06/pattern-singleton/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2021/02/08/leetcode-reverString/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2020/04/04/leetcode-reverseInteger/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2021/02/08/leetcode-printNumberAndLetter/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2021/02/08/leetcode-isUniqueString/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2021/02/13/leetcode-isRegroup/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jerome0000.github.io/2020/12/12/golang-type/</loc>
+    
+    <lastmod>2021-02-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jerome0000.github.io/2020/04/11/golang-eval/</loc>
     
-    <lastmod>2021-02-15</lastmod>
+    <lastmod>2021-02-16</lastmod>
     
   </url>
   
@@ -16,63 +79,7 @@
   </url>
   
   <url>
-    <loc>http://jerome0000.github.io/2021/02/13/leetcode-isRegroup/</loc>
-    
-    <lastmod>2021-02-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2021/02/08/leetcode-reverString/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2020/04/04/leetcode-reverseInteger/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2021/02/08/leetcode-printNumberAndLetter/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2019/06/08/shell-zshTheme/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2021/02/08/leetcode-isUniqueString/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://jerome0000.github.io/2019/06/01/hello/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2020/12/06/pattern-singleton/</loc>
-    
-    <lastmod>2021-02-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jerome0000.github.io/2020/12/12/golang-type/</loc>
     
     <lastmod>2021-02-08</lastmod>
     
