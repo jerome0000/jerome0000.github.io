@@ -6,7 +6,7 @@
   <link href="http://jerome0000.github.io/atom.xml" rel="self"/>
   
   <link href="http://jerome0000.github.io/"/>
-  <updated>2021-03-04T12:31:19.375Z</updated>
+  <updated>2021-03-14T09:15:14.782Z</updated>
   <id>http://jerome0000.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker-常用的docker-compose</title>
+    <link href="http://jerome0000.github.io/2021/03/14/docker-normalDockerCompose/"/>
+    <id>http://jerome0000.github.io/2021/03/14/docker-normalDockerCompose/</id>
+    <published>2021-03-14T09:12:17.000Z</published>
+    <updated>2021-03-14T09:15:14.782Z</updated>
+    
+    <content type="html"><![CDATA[<p>常用的<code>docker-compose</code>,慢慢积累中。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">https://github.com/jerome0000/docker-compose<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">docker docker-compose</summary>
+    
+    
+    
+    <category term="docker" scheme="http://jerome0000.github.io/categories/docker/"/>
+    
+    
+    <category term="docker" scheme="http://jerome0000.github.io/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机网络-http和https的区别</title>

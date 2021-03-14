@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>docker-常用的docker-compose</title>
+    <link href="/2021/03/14/docker-normalDockerCompose/"/>
+    <url>/2021/03/14/docker-normalDockerCompose/</url>
+    
+    <content type="html"><![CDATA[<p>常用的<code>docker-compose</code>,慢慢积累中。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">https://github.com/jerome0000/docker-compose<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>docker</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>docker</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>计算机网络-http和https的区别</title>
     <link href="/2021/02/28/net-httpAndHttps/"/>
     <url>/2021/02/28/net-httpAndHttps/</url>
