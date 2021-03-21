@@ -6,7 +6,7 @@
   <link href="http://jerome0000.github.io/atom.xml" rel="self"/>
   
   <link href="http://jerome0000.github.io/"/>
-  <updated>2021-03-14T09:15:14.782Z</updated>
+  <updated>2021-03-14T09:17:55.306Z</updated>
   <id>http://jerome0000.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://jerome0000.github.io/2021/03/14/docker-normalDockerCompose/"/>
     <id>http://jerome0000.github.io/2021/03/14/docker-normalDockerCompose/</id>
     <published>2021-03-14T09:12:17.000Z</published>
-    <updated>2021-03-14T09:15:14.782Z</updated>
+    <updated>2021-03-14T09:17:55.306Z</updated>
     
-    <content type="html"><![CDATA[<p>常用的<code>docker-compose</code>,慢慢积累中。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">https://github.com/jerome0000/docker-compose<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>常用的<a href="https://github.com/jerome0000/docker-compose">docker-compose</a>,慢慢积累中。</p>]]></content>
     
     
     <summary type="html">docker docker-compose</summary>
